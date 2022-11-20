@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    width: 25vw;
+    height: 100vh;
+    background-color: #2F3E46;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+}
+
+.imagem-header {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 5px solid #cad2c5;
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 125px);
+}
+
+nav {
+    width: 70%;
+    position: absolute;
+    top: 500px;
+    left: calc(12.5vw - 35%);
+    text-align: center;
+}
+
+.ul-sem-marcador {
+    margin: 15px 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #cad2c5;
+}
+
+main {
+    width: 75vw;
+    height: 100vh;
+    background-color: #cad2c5;
+    position: absolute;
+    top: 0;
+    left: 25vw;
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+}
+
+.section-1 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+h1 {
+    font-size: 6.2rem;
+}
+
+span, h3, dt  {
+    color: #52796f;
+}
+
+.icone-whatsapp {
+    width: 20px;
+
+}
+
+.section-2 {
+    position: absolute;
+    top: 480px;
+    left: 100px;
+}
+
+.section-3 {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+}
+
+.icones-redes-sociais {
+    width: 60px;
+    margin-right: 20px;
+}
+
+ol {
+    margin: 15px 0;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+
+h2 {
+    font-size: 5rem;
+    color: #52796f;
+}
